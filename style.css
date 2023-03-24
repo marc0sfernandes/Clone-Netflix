@@ -133,13 +133,13 @@ body {
 }
 
 .search-box:hover > .search-txt {
-    width:10em;
+    width:20em;
     border:2px solid white;
     margin-right:5px;
 }
 
 .minha_lista__titulo{
-    margin: 0 0 2% 2.3%;
+    margin: 0 0 0 2.3%;
     padding-left: 1%;
     padding-top:2%;
     font-weight: 600;
@@ -151,20 +151,17 @@ body {
     justify-content: center;
     gap:2.3%;
     transition: 250ms all;
-    margin: 0 5%;
+    margin: 0 1em;
 }
 
 .minha_lista img:hover {
-    box-shadow: 0px 0px 30px 3.5px rgba(255, 0, 0, 0.678);
     border-radius:5px;
-    transform: scale(1.2);
+    transform: scale(1.17);
 }
 
 .minha_lista img {
     transition: 300ms all;
     border-radius: 2px;
-    width: 19%;
-    
 }
 
 footer {
@@ -234,6 +231,14 @@ footer {
     padding: 1rem 4px;
   }
 
+  .swiper-wrapper {
+    padding: 1em 0.9em;
+  }
+
+  .swiper-button-prev, .swiper-button-next {
+    color: white;
+  }
+
   @media screen and (max-width: 1025px) {
   .menu__lista {
     display: none;
@@ -271,4 +276,4 @@ footer {
   .divisao__menu2 {
     gap:0.5em;
   }
-  }
+}
